@@ -1,0 +1,25 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v2",
+  "name": "Engineering ISO 3D Viewports",
+  "description": "Injects 8 true orthographic isometric camera viewports into the project file.",
+  "description_full": "Adds 8 standard 3D orthographic isometric viewports (Top/Bottom Front-Left, Front-Right, Back-Left, Back-Right) to the project JSON file.\n\nCalculated using true engineering isometric angles (35.264° pitch tilt) with orthographic projection enabled, ensuring uniform axis scale ratios for drafting and mechanical verification.\n\n[Note: This plugin was fully vibe-coded, use with great risk.]",
+  "identifier": "com.github.user.kicad-iso-viewports",
+  "type": "plugin",
+  "author": {
+    "name": "a",
+    "contact": {
+      "github": "https://github.com/tiandahuang"
+    }
+  },
+  "license": "GPL-3.0-or-later",
+  "resources": {
+    "homepage": "https://github.com/tiandahuang/kicad-iso-viewports"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "status": "stable",
+      "kicad_version": "10.0"
+    }
+  ]
+}
