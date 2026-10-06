@@ -16,3 +16,7 @@ GNU General Public License for more details.
 DISCLOSURE: This plugin (including this docstring) was fully vibe-coded.
 ---
 """
+
+from .inject_iso_viewports import IsoViewportsPlugin
+
+IsoViewportsPlugin().register()
