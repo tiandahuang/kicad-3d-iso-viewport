@@ -57,13 +57,13 @@ class IsoViewportsPlugin(pcbnew.ActionPlugin):
         top_views = [
             ("ISO 1 - Top-Front-Right",  [-c30_ce, -s30_ce,  se], [ c30_ce, -s30_ce,  se], [0.0,  ce,  se]),
             ("ISO 2 - Top-Back-Right",   [ c30_ce, -s30_ce,  se], [ c30_ce,  s30_ce, -se], [0.0,  ce,  se]),
-            ("ISO 3 - Top-Back-Left",    [ c30_ce,  s30_ce, -se], [-c30_ce,  s30_ce, -se], [0.0, -ce, -se]),
-            ("ISO 4 - Top-Front-Left",   [-c30_ce,  s30_ce, -se], [-c30_ce, -s30_ce,  se], [0.0, -ce, -se])
+            ("ISO 3 - Top-Back-Left",    [ c30_ce,  s30_ce, -se], [-c30_ce,  s30_ce, -se], [0.0,  ce,  se]),
+            ("ISO 4 - Top-Front-Left",   [-c30_ce,  s30_ce, -se], [-c30_ce, -s30_ce,  se], [0.0,  ce,  se])
         ]
 
         bottom_views = [
-            ("ISO 5 - Bottom-Front-Right", [-c30_ce, -s30_ce, -se], [ c30_ce, -s30_ce, -se], [0.0,  ce, -se]),
-            ("ISO 6 - Bottom-Back-Right",  [ c30_ce, -s30_ce, -se], [ c30_ce,  s30_ce,  se], [0.0,  ce, -se]),
+            ("ISO 5 - Bottom-Front-Right", [-c30_ce, -s30_ce, -se], [ c30_ce, -s30_ce, -se], [0.0, -ce,  se]),
+            ("ISO 6 - Bottom-Back-Right",  [ c30_ce, -s30_ce, -se], [ c30_ce,  s30_ce,  se], [0.0, -ce,  se]),
             ("ISO 7 - Bottom-Back-Left",   [ c30_ce,  s30_ce,  se], [-c30_ce,  s30_ce,  se], [0.0, -ce,  se]),
             ("ISO 8 - Bottom-Front-Left",  [-c30_ce,  s30_ce,  se], [-c30_ce, -s30_ce, -se], [0.0, -ce,  se])
         ]
